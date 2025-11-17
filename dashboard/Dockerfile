@@ -13,7 +13,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code and data
-COPY app.py .
+COPY app_hf.py app.py
 COPY data/ data/
 
 # Hugging Face Spaces uses port 7860

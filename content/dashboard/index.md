@@ -16,7 +16,13 @@ Explore gridded forecast outputs with interactive controls for time, variable se
   </ul>
 </div>
 
-<iframe src="https://huggingface.co/spaces/prakrutkansara/hydroclimate-s2s" style="width:100%; height:900px; border:2px solid #e5e7eb; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);"></iframe>
+<iframe src="https://prakrutkansara-hydroclimate-s2s.hf.space" style="width:100%; height:1200px; border:2px solid #e5e7eb; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);"></iframe>
+
+<p style="margin-top: 1rem; text-align: center;">
+<a href="https://huggingface.co/spaces/prakrutkansara/hydroclimate-s2s" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">
+🚀 Open Dashboard in New Tab
+</a>
+</p>
 
 ---
 

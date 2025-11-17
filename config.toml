@@ -1,4 +1,4 @@
-baseURL = "https://prakrutkansara.github.io/"
+baseURL = "https://prakrutkansara.github.io/hydroclimate_s2s/"
 languageCode = "en-us"
 title = "S2S Geospatial"
 theme = "PaperMod"

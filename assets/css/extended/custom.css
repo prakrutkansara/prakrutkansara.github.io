@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #10b981;
+  --accent-color: #f59e0b;
+  --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.profile .profile_inner h1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.post-entry {
+  border-left: 4px solid var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.post-entry:hover {
+  border-left-color: var(--secondary-color);
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+}
+
+.buttons .button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.buttons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.entry-header h2 {
+  color: var(--primary-color);
+}
+
+.post-tags .tags a {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border: 1px solid var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.post-tags .tags a:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+#map {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border: 2px solid #e5e7eb;
+}

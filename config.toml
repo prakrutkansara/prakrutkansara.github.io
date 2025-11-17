@@ -1,0 +1,80 @@
+baseURL = "https://prakrutkansara.github.io/prakrutkansara.github.io/"
+languageCode = "en-us"
+title = "S2S Geospatial"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true # allow raw HTML in Markdown for map embeds
+
+[params]
+defaultTheme = "auto"
+showReadingTime = true
+showToc = false
+disableScroll = false
+comments = false
+description = "Seasonal hydrological forecasts for global ecosystems, malaria prediction, and forest fire monitoring"
+author = "Prakrut Kansara"
+
+[params.profileMode]
+enabled = true
+title = "Prakrut Kansara, Ph.D."
+subtitle = "Assistant Research Scientist | Earth & Planetary Sciences"
+imageUrl = "/images/profile.jpg"
+imageWidth = 180
+imageHeight = 180
+imageTitle = "Prakrut Kansara"
+
+[[params.profileMode.buttons]]
+name = "Research"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Maps"
+url = "/maps/"
+
+[[params.profileMode.buttons]]
+name = "Dashboard"
+url = "/dashboard/"
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:prakrut@jhu.edu"
+
+[[params.socialIcons]]
+name = "google-scholar"
+url = "#"
+
+[[params.socialIcons]]
+name = "github"
+url = "#"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Maps"
+url = "/maps/"
+weight = 2
+[[menu.main]]
+name = "Dashboard"
+url = "/dashboard/"
+weight = 3
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 4
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5

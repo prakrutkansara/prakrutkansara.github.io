@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./dashboard/data:/app/dashboard/data
+    environment:
+      - PANEL_ALLOW_WEBSOCKET_ORIGIN=*
+    restart: unless-stopped
